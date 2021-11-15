@@ -46,7 +46,7 @@ class RdP:
             # chek if it already checked
             M = pending.pop(0)
             M_in_checked = False
-            for item in checked:
+            for item in checked: # because elementwise comparaison with numpy failed
                 if (np.all(item == M)):
                     M_in_checked = True
                     break
