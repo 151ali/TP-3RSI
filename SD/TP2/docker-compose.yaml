@@ -17,8 +17,8 @@ services:
     container_name: app1
     build:
       context: ./app1
-    ports:
-      - 5001:5001
+    expose:
+      - "5001"
     #restart: on-failure
 
   app2:
@@ -26,7 +26,7 @@ services:
     container_name: app2
     build:
       context: ./app2
-    ports:
-      - 5002:5002
+    expose:
+      - "5002"
     #restart: on-failure
 
