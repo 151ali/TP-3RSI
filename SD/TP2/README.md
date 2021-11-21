@@ -69,6 +69,9 @@ upstream nginx-demo {
 ```
 
 ## Ressources
+21-11-2021
+
 - [How to configure load balancing using Nginx](https://upcloud.com/community/tutorials/configure-load-balancing-nginx/)
 - [NGINX and the “Power of Two Choices” Load-Balancing Algorithm](https://www.nginx.com/blog/nginx-power-of-two-choices-load-balancing-algorithm/)
 - [Choosing an NGINX Plus Load-Balancing Technique](https://dzone.com/articles/choosing-an-nginx-plus-load-balancing-technique)
+- [High-Performance Load Balancing](https://www.nginx.com/products/nginx/load-balancing/)
