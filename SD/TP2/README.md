@@ -42,7 +42,6 @@ upstream nginx-demo {
 ## Random with Two Choices
 ```bash
 upstream nginx-demo {
-    least_conn;
     server app1:5001;
     server app2:5002;
     random two; 
